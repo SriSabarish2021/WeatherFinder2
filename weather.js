@@ -108,42 +108,49 @@ function emoji(weatheremoji){
             prevvid.style.display="none"
             body.style.backgroundImage="url('thunder.jpg')"
             body.style.backgroundSize="cover"
+            body.style.backgroundRepeat="norepeat"
             return "⛈️";
         case(weatheremoji>=300 && weatheremoji<400):
             prevvid.style.display="none"
             body.style.backgroundImage="url('rainyy.jpg')"
             body.style.backgroundSize="cover"
-            
+            body.style.backgroundRepeat="norepeat"
             return "🌦️";
         case(weatheremoji>=500 && weatheremoji<600):
             prevvid.style.display="none"
             body.style.backgroundImage="url('rainyy.jpg')"
             body.style.backgroundSize="cover"
+            body.style.backgroundRepeat="norepeat"
             return "🌧️";
         case(weatheremoji>=600 && weatheremoji<700):
             prevvid.style.display="none"
             body.style.backgroundImage="url('snow.jpg.jpg')"
             body.style.backgroundSize="cover"
+            body.style.backgroundRepeat="norepeat"
             return "❄️";
         case(weatheremoji>=700 && weatheremoji<800):
             prevvid.style.display="none"
             body.style.backgroundImage="url('sunnywea.jpg')"
             body.style.backgroundSize="cover"
+            body.style.backgroundRepeat="norepeat"
             return "🌤️";
         case(weatheremoji===800):
             prevvid.style.display="none"
             body.style.backgroundImage="url('sunnywea.jpg')"
             body.style.backgroundSize="cover"
+            body.style.backgroundRepeat="norepeat"
             return "🌞";
         case(weatheremoji>=804):
             prevvid.style.display="none"
             body.style.backgroundImage="url('cloudy.jpg')"
             body.style.backgroundSize="cover"
+            body.style.backgroundRepeat="norepeat"
             return "☁️";
         case(weatheremoji>=801 && weatheremoji<=803):
             prevvid.style.display="none"
             body.style.backgroundImage="url('broken cloud.jpg')"
             body.style.backgroundSize="cover"
+            body.style.backgroundRepeat="norepeat"
             return "🌥️";
         default:
             return "❓"   
